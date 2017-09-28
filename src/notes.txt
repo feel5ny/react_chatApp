@@ -1,4 +1,12 @@
 DBMS
+// 내가 currentUser.name 이미 투표를 했을까?
+// 했으면 어느쪽에 투표를 했을까?
+// A쪽에 했고 A를 클릭을 햇으면 A에서 내 이름을 뺀 채로 update
+// A쪽에 했고 B를 클릭했으면 무시
+// B쪽에 했고 B를 클릭을 했으면 B에서 내 이름을 뺀 채로 update
+// B쪽에 했고 A를 클릭했으면 무시
+// 안했으면 기존 방법대로 push({name: currentUser.name})
+
 
 root = {
     questions: [

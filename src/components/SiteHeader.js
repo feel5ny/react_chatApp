@@ -3,16 +3,23 @@ import CurrentUser from './CurrentUser'
 
 
 export default class SiteHeader extends React.Component {
-  render() {
+  render(
+  ) {
     return (
       <div>
-        <section className="hero is-small is-danger is-bold">
+        <section className="hero is-small is-primary is-bold">
           <div className="container">
             <div className="hero-head">
               <header className="nav">
                 <div className="container">
                   <div className="nav-left">
-                    <CurrentUser />
+                    <CurrentUser 
+                       currentUserName = {this.props.currentUserName}
+                       currentUserEmail = {this.props.currentUserEmail}
+                       currentUserImage = {this.props.currentUserImage}
+                       loginWithGoogle = {this.props.loginWithGoogle}
+                       logOut = {this.props.logOut}
+                    />
                   </div>
                 </div>
               </header>

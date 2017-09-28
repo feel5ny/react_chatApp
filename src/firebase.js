@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: "AIzaSyAR1NV7Mp4iTBArp2xszsUFOCgg0P3HPcs",
-  authDomain: "fastchat01234.firebaseapp.com",
-  databaseURL: "https://fastchat01234.firebaseio.com",
-  projectId: "fastchat01234",
-  storageBucket: "fastchat01234.appspot.com",
-  messagingSenderId: "740054554850"
+  apiKey: "AIzaSyALYLV9OhCvuHDegHIfa-TkG_pV8OSLJc4",
+  authDomain: "nayoung-chat.firebaseapp.com",
+  databaseURL: "https://nayoung-chat.firebaseio.com",
+  projectId: "nayoung-chat",
+  storageBucket: "nayoung-chat.appspot.com",
+  messagingSenderId: "190816095514"
 }
 
 firebase.initializeApp(config);
